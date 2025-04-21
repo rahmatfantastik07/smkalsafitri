@@ -263,7 +263,7 @@
   background: #f5f5f5;
 }
 
-.guru-smk th {
+.visi-smk th {
   padding: 1px;
   border-bottom: 1px solid #ddd;
   text-align: left;
@@ -280,4 +280,40 @@
   width: 3%;
   justify-content: space-between;
   background: #ffffff;
+}
+
+#kontak {
+  min-height: 400hv;
+}
+
+/* Kontak */
+.kontak-smk table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f5f5f5;
+  display: flex;
+  position: relative;
+  left: 7rem;
+}
+
+.kontak-smk th {
+  padding: 1px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: #000000;
+}
+
+.kontak-smk td {
+  padding: 25px 0px 1px 25px;
+  border-bottom: 1px solid #ddd;
+  right: -1rem;
+  position: relative;
+  left: 3rem;
+  color: #000000;
+}
+.kontak-smk th {
+  width: 3%;
+  justify-content: space-between;
+  background: #ffffff;
+  position: relative;
 }
