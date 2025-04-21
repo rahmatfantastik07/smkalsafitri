@@ -17,12 +17,12 @@ h2 {
   position: relative;
 }
 
-p {
+/* p {
   font-size: 15px;
   padding: 0px;
   left: 2.1rem;
   position: relative;
-}
+} */
 
 #home {
   background-color: #c9c5c8;
@@ -342,6 +342,15 @@ a {
     color: #333;
     font-weight: bold;
   }
+}
+
+/* Tentang */
+.about p {
+  font-size: 13px;
+  margin: 10px 1px 10px 2rem;
+  color: #333;
+  bottom: 1rem;
+  position: relative;
 }
 
 /* (Opsional) Dropdown styling bisa ditambah di sini */
