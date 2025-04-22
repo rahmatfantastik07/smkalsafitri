@@ -297,21 +297,19 @@
 }
 
 .kontak-smk th {
-  padding: 10px;
   border-bottom: 1px solid #ddd;
   text-align: left;
   color: #000000;
+  padding: 10px;
 }
 
 .kontak-smk td {
   border-bottom: 1px solid #ddd;
-  right: -1rem;
   position: relative;
-  left: 3rem;
   color: #000000;
 }
 .kontak-smk th {
-  width: 3%;
+  width: 100%;
   justify-content: space-between;
   background: #ffffff;
   position: relative;
