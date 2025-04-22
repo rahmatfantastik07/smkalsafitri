@@ -26,7 +26,7 @@ h2 {
 
 #home {
   background-color: #c9c5c8;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 /* Header navbar */
 .navbar {
@@ -216,18 +216,22 @@ h2 {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Container utama */
 .layanan-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
   gap: 30px;
-  max-width: 300px;
+  max-width: 1200px;
   margin: auto;
-  margin-bottom: 1rem;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
+/* Item layanan */
 .layanan-item {
+  flex: 1 1 150px;
+  max-width: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -245,8 +249,8 @@ h2 {
 }
 
 .layanan-item img {
-  width: 90px;
-  height: 70px;
+  width: 80px;
+  height: 60px;
   object-fit: contain;
   margin-bottom: 10px;
 }
@@ -256,6 +260,7 @@ h2 {
   font-weight: bold;
   color: #333;
 }
+
 
 a {
   text-decoration: none;
