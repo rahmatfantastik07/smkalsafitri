@@ -112,23 +112,25 @@
 
     <!-- Section: About -->
     <section id="about" class="about">
+        <div class="about">
 
-        <h2 class="title">Tentang Kami</h2>
-        <p> AL SAFITRI merupakan salah satu sekolah jenjang SMK berstatus Swasta yang berada di wilayah
-            Kec. Batauga, Kab. Buton Selatan, Sulawesi Tenggara. SMKS AL SAFITRI didirikan pada tanggal 3
-            Februari 2009 dengan Nomor SK Pendirian AHU-979.AH.01.04 yang berada dalam naungan Kementerian
-            Pendidikan dan Kebudayaan. Dalam kegiatan pembelajaran, sekolah yang memiliki 177 siswa ini
-            dibimbing oleh 30 guru yang profesional di bidangnya. Kepala Sekolah SMKS AL SAFITRI saat ini
-            adalah Hertina. Operator yang bertanggung jawab adalah Siti Rahma.<br><br>
+            <h2 class="title">Tentang Kami</h2>
+            <p> AL SAFITRI merupakan salah satu sekolah jenjang SMK berstatus Swasta yang berada di wilayah
+                Kec. Batauga, Kab. Buton Selatan, Sulawesi Tenggara. SMKS AL SAFITRI didirikan pada tanggal 3
+                Februari 2009 dengan Nomor SK Pendirian AHU-979.AH.01.04 yang berada dalam naungan Kementerian
+                Pendidikan dan Kebudayaan. Dalam kegiatan pembelajaran, sekolah yang memiliki 177 siswa ini
+                dibimbing oleh 30 guru yang profesional di bidangnya. Kepala Sekolah SMKS AL SAFITRI saat ini
+                adalah Hertina. Operator yang bertanggung jawab adalah Siti Rahma.<br><br>
 
-            Dengan adanya keberadaan SMKS AL SAFITRI, diharapkan dapat memberikan kontribusi dalam
-            mencerdaskan anak bangsa di wilayah Kec. Batauga, Kab. Buton Selatan.</p>
+                Dengan adanya keberadaan SMKS AL SAFITRI, diharapkan dapat memberikan kontribusi dalam
+                mencerdaskan anak bangsa di wilayah Kec. Batauga, Kab. Buton Selatan.</p>
 
 
-        <p>Akreditasi dan Sertifikasi SMKS AL SAFITRI
-            Sekolah ini telah terakreditasi B dengan Nomor SK Akreditasi 994/BAN-SM/SK/2021 pada tanggal 15 Oktober
-            2021.</p>
-        <span class="garis"></span>
+            <p>Akreditasi dan Sertifikasi SMKS AL SAFITRI
+                Sekolah ini telah terakreditasi B dengan Nomor SK Akreditasi 994/BAN-SM/SK/2021 pada tanggal 15 Oktober
+                2021.</p>
+            <span class="garis"></span>
+        </div>
     </section>
 
     <!-- Section: Galeri -->
@@ -224,41 +226,6 @@
                 el.classList.toggle("active");
             }
         }
-    </script>
-
-    <script>
-        // Slide
-const images = [
-  "img/slide1.jpg",
-  "img/slide2.jpg",
-  "img/slide3.jpg",
-  "img/slide4.jpg",
-  "img/slide5.jpg",
-  "img/slide6.jpg",
-];
-
-let current = 0;
-const slideImg = document.getElementById("slide-img");
-
-function showImage(index) {
-  slideImg.style.opacity = 0;
-  setTimeout(() => {
-    slideImg.src = images[index];
-    slideImg.style.opacity = 1;
-  }, 300);
-}
-
-function showNext() {
-  current = (current + 1) % images.length;
-  showImage(current);
-}
-
-function showPrev() {
-  current = (current - 1 + images.length) % images.length;
-  showImage(current);
-}
-
-// end slide
     </script>
 
 </body>
