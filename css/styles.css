@@ -26,7 +26,6 @@ h2 {
 
 #home {
   background-color: #c9c5c8;
-  /* min-height: 100vh; */
 }
 /* Header navbar */
 .navbar {
@@ -216,14 +215,15 @@ h2 {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 /* Container utama */
 .layanan-container {
   display: flex;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 30px;
-  max-width: 1200px;
+  gap: 20px;
+  max-width: 1300px;
   margin: auto;
   padding: 1rem;
 }
@@ -231,7 +231,7 @@ h2 {
 /* Item layanan */
 .layanan-item {
   flex: 1 1 150px;
-  max-width: 220px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,7 +260,6 @@ h2 {
   font-weight: bold;
   color: #333;
 }
-
 
 a {
   text-decoration: none;
