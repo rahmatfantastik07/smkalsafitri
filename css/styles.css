@@ -193,7 +193,6 @@ h2 {
 }
 
 .layanan {
-  left: 1rem;
   position: relative;
   color: yellow;
 }
@@ -258,6 +257,78 @@ a {
   color: #333;
   text-align: center;
   font-weight: bold;
+}
+
+/* Tentang */
+
+.about {
+  display: inline;
+  position: relative;
+}
+
+.about p {
+  font-size: 13px;
+  color: #333;
+  bottom: 1rem;
+}
+
+/* (Opsional) Dropdown styling bisa ditambah di sini */
+
+.galeri-section {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 25px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+footer {
+  background: #00cb18;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: white;
+  bottom: 20px;
+  position: relative;
 }
 
 /* Responsive Mobile */
@@ -342,72 +413,4 @@ a {
     color: #333;
     font-weight: bold;
   }
-}
-
-/* Tentang */
-.about p {
-  font-size: 13px;
-  margin: 10px 1px 10px 2rem;
-  color: #333;
-  bottom: 1rem;
-  position: relative;
-}
-
-/* (Opsional) Dropdown styling bisa ditambah di sini */
-
-.galeri-section {
-  padding: 60px 20px;
-  background-color: #f8f8f8;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 40px;
-  color: #2c3e50;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 0 10px;
-  position: relative;
-  bottom: 25px;
-}
-
-.gallery-item {
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover {
-  transform: scale(1.03);
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
-  border-radius: 12px;
-}
-
-.title {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 40px;
-  color: #2c3e50;
-}
-
-footer {
-  background: #00cb18;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  color: white;
-  bottom: 20px;
-  position: relative;
 }
