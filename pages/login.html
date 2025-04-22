@@ -13,13 +13,14 @@
     <div class="container">
         <div class="login-box">
             <h2>Login</h2>
-            <form action="">
+            <div id="error" class="error"></div>
+            <form onsubmit="return login(event)">
                 <div class="input-box">
-                    <input type="email" name="" id="">
+                    <input type="email" id="email">
                     <label for="email">Email</label>
                 </div>
                 <div class="input-box">
-                    <input type="password" name="" id="">
+                    <input type="password" id="password">
                     <label for="password">Password</label>
                 </div>
                 <div class="input-box">
@@ -28,6 +29,23 @@
                 <button type="submit" class="btn">Login</button>
             </form>
         </div>
+
+        <script>
+            function login(event) {
+                event.preventDefault();
+                const email = document.getElementById("email").value.trim();
+                const password = document.getElementById("password").value.trim();
+                const error = document.getElementById("error");
+
+                if (email === "smkalsa.fitribusel025@gmail.com" && password === "Fantastik07") {
+                    localStorage.setItem("isLoggedIn", "true"); // simpan status login
+                    window.location.href = "admin.html";
+                } else {
+                    error.textContent = "Email atau Password salah!";
+                }
+            }
+
+        </script>
         <span style="--i:0;"></span>
         <span style="--i:2;"></span>
         <span style="--i:3;"></span>
