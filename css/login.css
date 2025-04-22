@@ -126,3 +126,9 @@ input:focus ~ label {
   color: #1f293a;
   font-weight: 600;
 }
+
+#error {
+  color: red;
+  margin-top: 10px;
+  animation: shake 0.3s ease;
+}
